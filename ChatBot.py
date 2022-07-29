@@ -22,8 +22,12 @@ trainer.train([
     'No Problem! Have a Good Day!'
 ])
 
+name = input("Enter your name: ")
+print("Hi, I'm Bot created by Abhay Shukla")
+print("Let me know how I can help you")
+
 while True:
-    request = input('You:')
+    request = input(name+':')
     if request == 'Bye' or request == 'quit':
         print('Bot: Bye')
         break

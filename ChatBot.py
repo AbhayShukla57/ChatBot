@@ -5,7 +5,7 @@ bot = ChatBot('Bot')
 trainer = ListTrainer(bot)
 trainer.train([
     'Hi',
-    'Hello there',
+    "Hello there, Im bot from Vidhyavardhini's College of Engineering and Technology.",
     'What is the college timing',
     'College timing is from 9:00 am to 5:00 pm',
     'How many seats are there in any Branch',

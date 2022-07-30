@@ -13,8 +13,8 @@ QA = [
         ["College timing is from 9:00 am to 5:00 pm."]
     ],
     [
-        r"How many seats are there in any Branch?",
-        ["Generally, there are 60 seats in every branch. Except 'Artificial Intelligence and Data Science' has 30 seats."]
+        r"How many seats are there in (.*) Branch?",
+        ["Generally, there are 60 seats in %1 branch. Except 'Artificial Intelligence and Data Science' has 30 seats."]
     ],
     [
         r"Where is the college located?",
